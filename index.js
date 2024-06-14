@@ -1,1 +1,1 @@
-export { ColorSwatch } from './src/ColorSwatch.js';
+import './src/ColorSwatch.js';

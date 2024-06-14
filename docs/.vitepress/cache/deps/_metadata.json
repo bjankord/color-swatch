@@ -1,0 +1,40 @@
+{
+  "hash": "c84d19c8",
+  "configHash": "d0b985ae",
+  "lockfileHash": "fae3a33a",
+  "browserHash": "c208319f",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "2673494c",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "6d364b19",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "c7745dec",
+      "needsInterop": false
+    },
+    "colorjs.io": {
+      "src": "../../../../node_modules/colorjs.io/dist/color.js",
+      "file": "colorjs__io.js",
+      "fileHash": "f447d68d",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3YS4HNIT": {
+      "file": "chunk-3YS4HNIT.js"
+    },
+    "chunk-F3FYYIAV": {
+      "file": "chunk-F3FYYIAV.js"
+    }
+  }
+}

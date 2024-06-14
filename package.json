@@ -2,8 +2,8 @@
   "name": "color-swatch",
   "version": "0.1.0",
   "description": "A web component for displaying color swatches.",
+  "type": "module",
   "main": "index.js",
-  "module": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bjankord/color-swatch.git"
@@ -19,21 +19,19 @@
     "url": "https://github.com/bjankord/color-swatch/issues"
   },
   "homepage": "https://github.com/bjankord/color-swatch#readme",
-
   "scripts": {
-    "dev:docs": "vite serve docs/",
-    "build:docs": "vite build docs/",
-    "preview": "vite preview docs/",
-    "dev:examples": "vite serve examples/",
-    "build:examples": "vite build examples/",
+    "dev": "vite dev",
     "build": "vite build --config vite.build.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "astro dev",
+    "docs:build": "astro build",
+    "docs:preview": "astro preview"
   },
   "dependencies": {
-    "@mdhnpm/wcag-contrast-checker": "^1.1.0",
-    "color-convertor": "^0.0.2"
+    "colorjs.io": "^0.4.5"
   },
   "devDependencies": {
-    "vite": "^2.9.9"
+    "@astrojs/starlight": "^0.16.0",
+    "astro": "^4.2.1"
   }
 }

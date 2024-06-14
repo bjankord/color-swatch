@@ -6,7 +6,8 @@ module.exports = defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'index.js'),
       name: 'ColorSwatch',
+      formats: ['es'],
       fileName: (format) => `color-swatch.${format}.js`
     },
-  }
+  },
 })
