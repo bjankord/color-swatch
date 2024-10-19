@@ -1,0 +1,14 @@
+{
+  "name": "color-swatch-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "color-swatch": "file:../color-swatch",
+    "vitepress": "^1.4.1"
+  }
+}
