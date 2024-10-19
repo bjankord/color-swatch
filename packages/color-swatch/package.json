@@ -29,7 +29,7 @@
     "packages/color-swatch-docs"
   ],
   "dependencies": {
-    "colorjs.io": "^0.4.5"
+    "colorjs.io": "^0.5.0"
   },
   "devDependencies": {
     "vite": "^5.4.9"
