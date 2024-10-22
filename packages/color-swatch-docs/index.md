@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Color Swatch"
   text:
-  tagline: Easily document colors from your design system in any documenation framework
+  tagline: Effortlessly document your design system's colors in any documentation framework.
   actions:
     - theme: brand
       text: Get Started
