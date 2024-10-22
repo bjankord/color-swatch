@@ -1,6 +1,6 @@
 # build output
 dist/
-.vitepress/cache/
+packages/color-swatch-docs/.vitepress/cache/
 
 
 # dependencies
