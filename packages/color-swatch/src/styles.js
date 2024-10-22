@@ -66,6 +66,7 @@ color-swatch::part(cs-normal-dark-text-status) {
   font-size: 0.85em;
   background: #ccc;
   border-radius: 3px;
+  color: #000;
   padding: 0.313rem 0;
   min-width: 3.375rem;
   text-align: center;

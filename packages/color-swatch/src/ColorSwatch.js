@@ -57,7 +57,7 @@ class ColorSwatch extends HTMLElement {
     // Bind event handlers
     this.handleContrastToggle = this.handleContrastToggle.bind(this);
 
-    this.colorValue = this.getAttribute('color-value'); // this.getAttribute('color') || 
+    this.colorValue = this.getAttribute('color-value'); // this.getAttribute('color') ||
     console.log('this.colorValue', this.colorValue);
     this.lightTextColor = this.getAttribute('light-text-color') || '#ffffff';
     this.darkTextColor = this.getAttribute('dark-text-color') || '#000000';
@@ -184,7 +184,5 @@ class ColorSwatch extends HTMLElement {
     }
   }
 }
-
-alert('test 2');
 
 window.customElements.get("color-swatch") || window.customElements.define("color-swatch", ColorSwatch);
