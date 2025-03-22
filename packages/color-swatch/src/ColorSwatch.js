@@ -5,21 +5,21 @@ import { staticStyles } from './styles.js';
 const render = x => `<div part="cs-swatch" class="cs-swatch" style="background-color: ${x.colorValue};">
   <div part="cs-contrast-info" class="${(x.getAttribute('show-contrast-info') !== null) ? `` : `hide`}">
     <div part="cs-contrast-info-container">
-      <dl part="cs-contrast-list" title="Large Text Contrast ${x.contrastInfo.largeText.lightText.ratio}">
+      <dl part="cs-contrast-list" title="Large Light Text Contrast ${x.contrastInfo.largeText.lightText.ratio}">
         <dt part="cs-large-light-text" style="color: ${x.lightTextColor};">AA</dt>
         <dd part="cs-large-light-text-status">${x.renderContrastPassFail(x.contrastInfo.largeText.lightText.status)}</dd>
       </dl>
-      <dl part="cs-contrast-list" title="Normal Text Contrast ${x.contrastInfo.normalText.lightText.ratio}">
+      <dl part="cs-contrast-list" title="Normal Light Text Contrast ${x.contrastInfo.normalText.lightText.ratio}">
         <dt part="cs-normal-light-text" style="color: ${x.lightTextColor};">AA</dt>
         <dd part="cs-normal-light-text-status">${x.renderContrastPassFail(x.contrastInfo.normalText.lightText.status)}</dd>
       </dl>
     </div>
     <div part="cs-contrast-info-container">
-      <dl part="cs-contrast-list" title="Large Text Contrast ${x.contrastInfo.largeText.darkText.ratio}">
+      <dl part="cs-contrast-list" title="Large Dark Text Contrast ${x.contrastInfo.largeText.darkText.ratio}">
         <dt part="cs-large-dark-text" style="color: ${x.darkTextColor};">AA</dt>
         <dd part="cs-large-dark-text-status">${x.renderContrastPassFail(x.contrastInfo.largeText.darkText.status)}</dd>
       </dl>
-      <dl part="cs-contrast-list" title="Normal Text Contrast ${x.contrastInfo.normalText.darkText.ratio}">
+      <dl part="cs-contrast-list" title="Normal Dark Text Contrast ${x.contrastInfo.normalText.darkText.ratio}">
         <dt part="cs-normal-dark-text" style="color: ${x.darkTextColor};">AA</dt>
         <dd part="cs-normal-dark-text-status">${x.renderContrastPassFail(x.contrastInfo.normalText.darkText.status)}</dd>
       </dl>
@@ -140,9 +140,9 @@ class ColorSwatch extends HTMLElement {
 
   renderContrastPassFail(status) {
     if (status === 'pass') {
-      return '✅ Pass';
+      return '<span role="img" aria-label="Pass">✅</span>';
     }
-    return '❌ Fail';
+    return '<span role="img" aria-label="Fail">❌</span>';
   }
 
   handleContrastToggle() {
