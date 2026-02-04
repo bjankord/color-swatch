@@ -25,16 +25,6 @@ color-swatch[show-contrast-info="true"]::part(cs-contrast-info) {
   visibility: visible;
 }
 
-color-swatch ul {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none !important;
-}
-
-color-swatch li + li {
-  padding-top: 0.5rem;
-}
-
 color-swatch::part(cs-contrast-info) {
   margin-top: 4.688rem;
   padding: 0.625rem;

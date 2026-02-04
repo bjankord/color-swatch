@@ -9,7 +9,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started' },
-      { text: 'Examples', link: '/examples' }
+      { text: 'Examples', link: '/examples' },
+      { text: 'Docs', link: '/docs' }
     ],
 
     socialLinks: [
@@ -23,4 +24,4 @@ export default defineConfig({
       },
     }
   }
-})
+});

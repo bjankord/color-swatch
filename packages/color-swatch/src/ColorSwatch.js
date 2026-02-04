@@ -28,6 +28,7 @@ const render = x => `<div part="cs-swatch" class="cs-swatch" style="background-c
 </div>
 <div part="cs-body">
   <div part="cs-slot">
+    <div part="cs-color-name" class="cs-color-name">${x.colorName || ''}</div>
     <slot />
   </div>
   <button type="button" part="cs-contrast-toggle" class="cs-contrast-toggle" title="Toggle Contrast Info">
@@ -44,6 +45,7 @@ class ColorSwatch extends HTMLElement {
   static get observedAttributes() {
     return [
       'color-value',
+      'color-name',
       'light-text-color',
       'dark-text-color',
       'show-contrast-info',
@@ -58,7 +60,7 @@ class ColorSwatch extends HTMLElement {
     this.handleContrastToggle = this.handleContrastToggle.bind(this);
 
     this.colorValue = this.getAttribute('color-value'); // this.getAttribute('color') ||
-    console.log('this.colorValue', this.colorValue);
+    this.colorName = this.getAttribute('color-name');
     this.lightTextColor = this.getAttribute('light-text-color') || '#ffffff';
     this.darkTextColor = this.getAttribute('dark-text-color') || '#000000';
     this.showContrastInfo = this.getAttribute('show-contrast-info') ? Boolean(this.getAttribute('show-contrast-info')) : false;

@@ -5,19 +5,17 @@ layout: home
 hero:
   name: "Color Swatch"
   text:
-  tagline: Effortlessly document your design system's colors in any documentation framework.
+  tagline: A web component for displaying color swatches.
   actions:
     - theme: brand
       text: Get Started
       link: /getting-started
     - theme: alt
-      text: Examples
-      link: /examples
+      text: Docs
+      link: /docs
 ---
 
 <script setup>
-import 'color-swatch';
-
 const colors = [
   {
     name: "Red",
@@ -51,22 +49,22 @@ const colors = [
       { shade: 950, hex: "#431407" }
     ]
   },
-  {
-    name: "Amber",
-    values: [
-      { shade: 50, hex: "#fffbeb" },
-      { shade: 100, hex: "#fef3c7" },
-      { shade: 200, hex: "#fde68a" },
-      { shade: 300, hex: "#fcd34d" },
-      { shade: 400, hex: "#fbbf24" },
-      { shade: 500, hex: "#f59e0b" },
-      { shade: 600, hex: "#d97706" },
-      { shade: 700, hex: "#b45309" },
-      { shade: 800, hex: "#92400e" },
-      { shade: 900, hex: "#78350f" },
-      { shade: 950, hex: "#451a03" }
-    ]
-  },
+  // {
+  //   name: "Amber",
+  //   values: [
+  //     { shade: 50, hex: "#fffbeb" },
+  //     { shade: 100, hex: "#fef3c7" },
+  //     { shade: 200, hex: "#fde68a" },
+  //     { shade: 300, hex: "#fcd34d" },
+  //     { shade: 400, hex: "#fbbf24" },
+  //     { shade: 500, hex: "#f59e0b" },
+  //     { shade: 600, hex: "#d97706" },
+  //     { shade: 700, hex: "#b45309" },
+  //     { shade: 800, hex: "#92400e" },
+  //     { shade: 900, hex: "#78350f" },
+  //     { shade: 950, hex: "#451a03" }
+  //   ]
+  // },
   {
     name: "Yellow",
     values: [
@@ -83,22 +81,22 @@ const colors = [
       { shade: 950, hex: "#422006" }
     ]
   },
-  {
-    name: "Lime",
-    values: [
-      { shade: 50, hex: "#f7fee7" },
-      { shade: 100, hex: "#ecfccb" },
-      { shade: 200, hex: "#d9f99d" },
-      { shade: 300, hex: "#bef264" },
-      { shade: 400, hex: "#a3e635" },
-      { shade: 500, hex: "#84cc16" },
-      { shade: 600, hex: "#65a30d" },
-      { shade: 700, hex: "#4d7c0f" },
-      { shade: 800, hex: "#3f6212" },
-      { shade: 900, hex: "#365314" },
-      { shade: 950, hex: "#1a2e05" }
-    ]
-  },
+  // {
+  //   name: "Lime",
+  //   values: [
+  //     { shade: 50, hex: "#f7fee7" },
+  //     { shade: 100, hex: "#ecfccb" },
+  //     { shade: 200, hex: "#d9f99d" },
+  //     { shade: 300, hex: "#bef264" },
+  //     { shade: 400, hex: "#a3e635" },
+  //     { shade: 500, hex: "#84cc16" },
+  //     { shade: 600, hex: "#65a30d" },
+  //     { shade: 700, hex: "#4d7c0f" },
+  //     { shade: 800, hex: "#3f6212" },
+  //     { shade: 900, hex: "#365314" },
+  //     { shade: 950, hex: "#1a2e05" }
+  //   ]
+  // },
   {
     name: "Green",
     values: [
@@ -115,38 +113,38 @@ const colors = [
       { shade: 950, hex: "#052e16" }
     ]
   },
-  {
-    name: "Emerald",
-    values: [
-      { shade: 50, hex: "#ecfdf5" },
-      { shade: 100, hex: "#d1fae5" },
-      { shade: 200, hex: "#a7f3d0" },
-      { shade: 300, hex: "#6ee7b7" },
-      { shade: 400, hex: "#34d399" },
-      { shade: 500, hex: "#10b981" },
-      { shade: 600, hex: "#059669" },
-      { shade: 700, hex: "#047857" },
-      { shade: 800, hex: "#065f46" },
-      { shade: 900, hex: "#064e3b" },
-      { shade: 950, hex: "#022c22" }
-    ]
-  },
-  {
-    name: "Teal",
-    values: [
-      { shade: 50, hex: "#f0fdfa" },
-      { shade: 100, hex: "#ccfbf1" },
-      { shade: 200, hex: "#99f6e4" },
-      { shade: 300, hex: "#5eead4" },
-      { shade: 400, hex: "#2dd4bf" },
-      { shade: 500, hex: "#14b8a6" },
-      { shade: 600, hex: "#0d9488" },
-      { shade: 700, hex: "#0f766e" },
-      { shade: 800, hex: "#115e59" },
-      { shade: 900, hex: "#134e4a" },
-      { shade: 950, hex: "#042f2e" }
-    ]
-  },
+  // {
+  //   name: "Emerald",
+  //   values: [
+  //     { shade: 50, hex: "#ecfdf5" },
+  //     { shade: 100, hex: "#d1fae5" },
+  //     { shade: 200, hex: "#a7f3d0" },
+  //     { shade: 300, hex: "#6ee7b7" },
+  //     { shade: 400, hex: "#34d399" },
+  //     { shade: 500, hex: "#10b981" },
+  //     { shade: 600, hex: "#059669" },
+  //     { shade: 700, hex: "#047857" },
+  //     { shade: 800, hex: "#065f46" },
+  //     { shade: 900, hex: "#064e3b" },
+  //     { shade: 950, hex: "#022c22" }
+  //   ]
+  // },
+  // {
+  //   name: "Teal",
+  //   values: [
+  //     { shade: 50, hex: "#f0fdfa" },
+  //     { shade: 100, hex: "#ccfbf1" },
+  //     { shade: 200, hex: "#99f6e4" },
+  //     { shade: 300, hex: "#5eead4" },
+  //     { shade: 400, hex: "#2dd4bf" },
+  //     { shade: 500, hex: "#14b8a6" },
+  //     { shade: 600, hex: "#0d9488" },
+  //     { shade: 700, hex: "#0f766e" },
+  //     { shade: 800, hex: "#115e59" },
+  //     { shade: 900, hex: "#134e4a" },
+  //     { shade: 950, hex: "#042f2e" }
+  //   ]
+  // },
   {
     name: "Cyan",
     values: [
@@ -163,22 +161,22 @@ const colors = [
       { shade: 950, hex: "#083344" }
     ]
   },
-  {
-    name: "Sky",
-    values: [
-      { shade: 50, hex: "#f0f9ff" },
-      { shade: 100, hex: "#e0f2fe" },
-      { shade: 200, hex: "#bae6fd" },
-      { shade: 300, hex: "#7dd3fc" },
-      { shade: 400, hex: "#38bdf8" },
-      { shade: 500, hex: "#0ea5e9" },
-      { shade: 600, hex: "#0284c7" },
-      { shade: 700, hex: "#0369a1" },
-      { shade: 800, hex: "#075985" },
-      { shade: 900, hex: "#0c4a6e" },
-      { shade: 950, hex: "#082f49" }
-    ]
-  },
+  // {
+  //   name: "Sky",
+  //   values: [
+  //     { shade: 50, hex: "#f0f9ff" },
+  //     { shade: 100, hex: "#e0f2fe" },
+  //     { shade: 200, hex: "#bae6fd" },
+  //     { shade: 300, hex: "#7dd3fc" },
+  //     { shade: 400, hex: "#38bdf8" },
+  //     { shade: 500, hex: "#0ea5e9" },
+  //     { shade: 600, hex: "#0284c7" },
+  //     { shade: 700, hex: "#0369a1" },
+  //     { shade: 800, hex: "#075985" },
+  //     { shade: 900, hex: "#0c4a6e" },
+  //     { shade: 950, hex: "#082f49" }
+  //   ]
+  // },
   {
     name: "Blue",
     values: [
@@ -375,9 +373,29 @@ const colors = [
 </script>
 
 <style>
-  .container {
-    max-width: 30rem;
-    margin: 0 auto;
+  .vp-doc.container {
+    max-width: 95% !important;
+  }
+
+  h2 {
+    border: 0 !important;
+  }
+
+  .color-wrapper {
+    display: flex;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .color-container {
+    width: 12rem;
+    flex-shrink: 0;
+    color: #000;
+  }
+
+  .color-container h2 {
+    color: #fff;
   }
 
   color-swatch {
@@ -385,15 +403,11 @@ const colors = [
   }
 </style>
 
-<div class="container">
-  <p>Example colors based on <a href="https://tailwindcss.com/docs/customizing-colors" target="_blank">Tailwind colors</a></p>
-  <div v-for="color in colors">
+<div class="color-wrapper">
+  <div class="color-container" v-for="color in colors">
     <h2>{{color.name}}</h2>
     <div v-for="value in color.values">
-      <color-swatch :color-value="value.hex">
-        <div style="color: #000;">
-          {{color.name}} {{value.shade}}
-        </div>
+      <color-swatch :color-value="value.hex" :color-name="`${color.name} ${value.shade}`">
       </color-swatch>
     </div>
   </div>
