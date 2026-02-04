@@ -13,7 +13,6 @@ This repo is a small monorepo:
 - Accepts a `color-value` (hexadecimal supported by [colorjs.io](https://colorjs.io/))
 - Optional contrast panel with pass/fail indicators for large and normal text sizes
 - Slot support for your own label/metadata
-- Themeable via CSS Parts (`::part(...)`)
 
 ## Quick Start (consumer usage)
 
