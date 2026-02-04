@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "color-swatch": "file:../color-swatch",
-    "vitepress": "^1.4.1"
+    "vitepress": "^2.0.0-alpha.16"
   }
 }
