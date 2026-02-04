@@ -110,4 +110,4 @@ The VitePress content lives in `packages/color-swatch-docs/`:
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — see [LICENSE](https://github.com/bjankord/color-swatch/blob/main/LICENSE).
