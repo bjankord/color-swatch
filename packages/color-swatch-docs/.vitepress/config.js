@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/color-swatch/',
   title: "Color Swatch",
   description: "A web component for displaying color swatches",
   themeConfig: {
