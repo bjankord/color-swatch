@@ -1,6 +1,8 @@
 # color-swatch
 
-See https://github.com/bjankord/color-swatch/blob/main/packages/color-swatch/README.md for the color-swatch component README.
+[![NPM version](http://img.shields.io/npm/v/color-swatch.svg)](https://www.npmjs.com/package/color-swatch)
+
+[color-swatch component README](https://github.com/bjankord/color-swatch/blob/main/packages/color-swatch/README.md)
 
 ## Repo Development
 

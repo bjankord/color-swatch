@@ -1,5 +1,8 @@
 # Getting Started
 
+[![NPM version](http://img.shields.io/npm/v/color-swatch.svg)](https://www.npmjs.com/package/color-swatch)
+
+
 ::: code-group
 
 ```js [npm]

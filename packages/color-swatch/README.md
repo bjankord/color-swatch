@@ -1,5 +1,7 @@
 # 🎨 color-swatch
 
+[![NPM version](http://img.shields.io/npm/v/color-swatch.svg)](https://www.npmjs.com/package/color-swatch)
+
 A **web component** for displaying color swatches, with optional **WCAG contrast checks** for light/dark text.
 
 ## Features
