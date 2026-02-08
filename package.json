@@ -7,6 +7,8 @@
 		"packages/color-swatch-docs"
 	],
 	"scripts": {
+		"build": "npm run build --workspace packages/color-swatch",
+		"build:docs": "npm run build:docs --workspace packages/color-swatch-docs",
 		"dev": "npm run dev --workspace packages/color-swatch-docs",
 		"test": "npm run test --workspace packages/color-swatch"
 	}
