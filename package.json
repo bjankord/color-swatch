@@ -8,6 +8,6 @@
 	],
 	"scripts": {
 		"dev": "npm run dev --workspace packages/color-swatch-docs",
-		"test": "npm run test:unit --workspace packages/color-swatch"
+		"test": "npm run test --workspace packages/color-swatch"
 	}
 }
