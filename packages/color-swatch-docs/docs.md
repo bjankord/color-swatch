@@ -4,11 +4,11 @@
 
 | Attribute | Property | Property type | Default value | Description |
 |-----------|----------|---------------|---------------|-------------|
-| `color-value` | `color-value` | `string` | - | The current color value. |
-| `color-name` | `color-name` | `string` | - | The current color name. |
-| `light-text-color` | `light-text-color` | `string` | `#ffffff` | The color value to use for light text calculation. |
-| `dark-text-color` | `dark-text-color` | `string` | `#000000` | The color value to use for dark text calculation. |
-| `show-contrast-info` | `show-contrast-info` | `boolean` | `false` | Determines if the contrast info is displayed or not. |
+| `color-value` | `colorValue` | `string` | - | The current color value. |
+| `color-name` | `colorName` | `string` | - | The current color name. |
+| `light-text-color` | `lightTextColor` | `string` | `#ffffff` | The color value to use for light text calculation. |
+| `dark-text-color` | `darkTextColor` | `string` | `#000000` | The color value to use for dark text calculation. |
+| `show-contrast-info` | `showContrastInfo` | `boolean` | `false` | Determines if the contrast info is displayed or not. |
 
 <!--
 ## CSS Parts

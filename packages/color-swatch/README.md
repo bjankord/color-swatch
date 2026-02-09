@@ -37,13 +37,15 @@ Use it in HTML:
 
 ### Attributes
 
-| Attribute | Type | Default | Description |
-|---|---:|---:|---|
-| `color-value` | string | (required) | The swatch background color value. |
-| `color-name` | string | - | Display name shown in the footer. |
-| `light-text-color` | string | `#ffffff` | Color used for “light text” contrast calculation. |
-| `dark-text-color` | string | `#000000` | Color used for “dark text” contrast calculation. |
-| `show-contrast-info` | boolean-ish | `false` | Show contrast info panel. Use `show-contrast-info="true"` to enable. |
+## Attributes & Properties
+
+| Attribute | Property | Property type | Default value | Description |
+|-----------|----------|---------------|---------------|-------------|
+| `color-value` | `colorValue` | `string` | - | The current color value. |
+| `color-name` | `colorName` | `string` | - | The current color name. |
+| `light-text-color` | `lightTextColor` | `string` | `#ffffff` | The color value to use for light text calculation. |
+| `dark-text-color` | `darkTextColor` | `string` | `#000000` | The color value to use for dark text calculation. |
+| `show-contrast-info` | `showContrastInfo` | `boolean` | `false` | Determines if the contrast info is displayed or not. |
 
 Notes:
 

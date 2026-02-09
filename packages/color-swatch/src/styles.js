@@ -19,19 +19,16 @@ color-swatch::part(cs-swatch) {
 
 color-swatch::part(cs-contrast-info) {
   visibility: hidden;
-}
-
-color-swatch[show-contrast-info="true"]::part(cs-contrast-info) {
-  visibility: visible;
-}
-
-color-swatch::part(cs-contrast-info) {
   margin-top: 4.688rem;
   padding: 0.625rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+}
+
+color-swatch[show-contrast-info="true"]::part(cs-contrast-info) {
+  visibility: visible;
 }
 
 color-swatch::part(cs-contrast-info-container) {
@@ -100,14 +97,15 @@ color-swatch::part(cs-contrast-toggle) {
 }
 
 color-swatch::part(cs-visually-hidden) {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
   position: absolute;
   width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }`;
 
-export { staticStyles }
+export { staticStyles };

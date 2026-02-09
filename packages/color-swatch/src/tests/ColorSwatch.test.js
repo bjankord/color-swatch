@@ -97,7 +97,8 @@ function $shadow(host, selector) {
 }
 
 function hasHideClass(host) {
-  return $shadow(host, '[part="cs-contrast-info"]').classList.contains('hide');
+  // Contrast info is hidden when the show-contrast-info attribute is not set
+  return !host.hasAttribute('show-contrast-info');
 }
 
 describe('ColorSwatch (unit)', () => {

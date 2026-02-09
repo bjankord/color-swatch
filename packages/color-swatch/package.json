@@ -4,6 +4,15 @@
   "description": "A web component for displaying color swatches.",
   "type": "module",
   "main": "index.js",
+  "module": "index.js",
+  "unpkg": "dist/color-swatch.es.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "default": "./index.js"
+    },
+    "./dist/*": "./dist/*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bjankord/color-swatch.git"
