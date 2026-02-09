@@ -33,7 +33,7 @@
     "build": "vite build --config vite.config.js",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepublish": "npm run test && npm run build"
+    "prepublishOnly": "npm run test && npm run build"
   },
   "workspaces": [
     "packages/color-swatch",
