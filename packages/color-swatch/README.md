@@ -45,12 +45,12 @@ Use it in HTML:
 | `color-name` | `colorName` | `string` | - | The current color name. |
 | `light-text-color` | `lightTextColor` | `string` | `#ffffff` | The color value to use for light text calculation. |
 | `dark-text-color` | `darkTextColor` | `string` | `#000000` | The color value to use for dark text calculation. |
-| `show-contrast-info` | `showContrastInfo` | `boolean` | `false` | Determines if the contrast info is displayed or not. |
+| `show-contrast-info` | `showContrastInfo` | `string` | - | Determines if the contrast info is displayed or not. |
 
 Notes:
 
 - To show contrast info, set `show-contrast-info="true"`.
-- To hide it again, remove the attribute.
+
 
 ### Slot
 
