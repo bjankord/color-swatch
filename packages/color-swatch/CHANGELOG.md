@@ -4,7 +4,7 @@
 
 ### Added
 
-* Added files key to package.json to properply include dist and other necessary package files
+* Added files key to package.json to properly include dist and other necessary package files
 
 ## 0.2.1
 
