@@ -1,6 +1,6 @@
 {
   "name": "color-swatch",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A web component for displaying color swatches.",
   "type": "module",
   "main": "index.js",

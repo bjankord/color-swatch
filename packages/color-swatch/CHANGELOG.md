@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+### Added
+
+* Documentation on WCAG Color Contrast Guidelines
+
 ## 0.2.2
 
 ### Added
